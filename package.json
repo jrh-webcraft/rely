@@ -1,0 +1,19 @@
+{
+  "name": "@jrh/rely",
+  "version": "2.0.0",
+  "description": "Simple dependency injection for Node.js functions.",
+  "main": "source/rely.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jrh-webcraft/rely.git"
+  },
+  "scripts": {
+    "test": "mocha -r tests/tests.support source/*.test.js"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^9.2.2",
+    "sinon": "^13.0.1",
+    "sinon-chai": "^3.7.0"
+  }
+}
